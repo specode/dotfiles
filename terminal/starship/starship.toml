@@ -1,0 +1,37 @@
+# 调整整体格式：只保留 目录 + Git 分支 + Git 状态 + 命令行符号
+format = """
+$directory\
+$git_branch\
+$git_status\
+$character"""
+
+# 将多行提示符改为单行
+[line_break]
+disabled = true
+
+# 简化 Docker / OrbStack 显示 (直接禁用)
+[docker_context]
+disabled = true
+
+# 简化 Go 语言版本显示 (直接禁用，或者你可以把 disabled 改为 false 但去掉 'via')
+[golang]
+disabled = true
+
+# 简化 Node.js / Python 等其他语言的显示
+[nodejs]
+disabled = true
+[python]
+disabled = true
+
+# 简化 Git 状态显示，让符号更干净
+[git_status]
+format = '([$all_status$ahead_behind]($style) )'
+conflicted = '⚔️ '
+ahead = '⇡'
+behind = '⇣'
+diverged = '⇕'
+untracked = '?'
+modified = '!'
+staged = '+'
+renamed = '»'
+deleted = '✘'

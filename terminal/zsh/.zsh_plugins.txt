@@ -1,0 +1,6 @@
+# 强大的命令补全基础库
+zsh-users/zsh-completions
+# 基于历史记录的灰色半透明智能提示 (按右方向键采纳)
+zsh-users/zsh-autosuggestions
+# 终端命令语法高亮 (必须放在最后一行)
+zsh-users/zsh-syntax-highlighting
