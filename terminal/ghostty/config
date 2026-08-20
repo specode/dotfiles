@@ -1,6 +1,7 @@
 # ==========================================
 # 1. 字体与排版 (需配合 Nerd Font 显示 Starship 符号)
 # ==========================================
+font-family = "JetBrainsMonoNL Nerd Font Mono"
 font-family = "Maple Mono NF CN"
 font-size = 16
 font-feature = -calt, -liga, -dlig
